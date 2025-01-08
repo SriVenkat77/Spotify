@@ -10,7 +10,7 @@ const ForgotPassword = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:4000/api/user/forgot-password", { email });
+      await axios.post("https://spotify-1-fgy2.onrender.com/api/user/forgot-password", { email });
       setIsError(false); // Indicate success
       setMessage("Password reset link sent to your email!"); // Success message
     } catch (error) {
