@@ -26,7 +26,7 @@ const Register = () => {
 
     try {
       // Make API request to register the user
-      await axios.post("http://localhost:4000/api/user/register", form);
+      await axios.post("https://spotify-1-fgy2.onrender.com/api/user/register", form);
       // Redirect after successful registration
       setTimeout(() => {
         navigate("/");
