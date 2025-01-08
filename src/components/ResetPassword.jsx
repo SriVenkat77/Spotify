@@ -25,7 +25,7 @@ const ResetPassword = () => {
 
     try {
       // API request to reset password
-      await axios.post("http://localhost:4000/api/user/reset-password", {
+      await axios.post("https://spotify-1-fgy2.onrender.com/api/user/reset-password", {
         token,
         newPassword: form.newPassword,
       });
