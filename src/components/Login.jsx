@@ -11,7 +11,7 @@ const Login = ({ setUser }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("http://localhost:4000/api/user/login", {
+      const { data } = await axios.post("https://spotify-1-fgy2.onrender.com/api/user/login", {
         email,
         password,
       });
