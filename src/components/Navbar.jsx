@@ -110,13 +110,13 @@ const Navbar = () => {
           <div className="absolute top-[60px] right-0 bg-black text-white w-[200px] rounded-lg shadow-lg">
            
             <p
-              onClick={() => handleMenuClick('/profile')}
+              onClick={() => handleMenuClick('/')}
               className="py-2 px-4 cursor-pointer hover:bg-gray-700"
             >
               Profile
             </p>
             <p
-              onClick={() => handleMenuClick('/settings')}
+              onClick={() => handleMenuClick('/')}
               className="py-2 px-4 cursor-pointer hover:bg-gray-700"
             >
               Settings
